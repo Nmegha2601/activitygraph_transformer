@@ -1,6 +1,6 @@
 ## Activity Graph Transformer for Temporal Action Localization
 
-This repository contains the implementation of Activity Graph Transformers. The paper is available [here](https:arxiv.org/abs/) or at the project [website](http://www.sfu.ca/~mnawhal/projects/agt.html).
+This repository contains the implementation of Activity Graph Transformers. The paper is available [here](https://arxiv.org/abs/2101.08540) or at the project [website](http://www.sfu.ca/~mnawhal/projects/agt.html).
 
 
 ---
