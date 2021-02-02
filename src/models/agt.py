@@ -253,7 +253,7 @@ class PostProcessMatched(nn.Module):
         indices = self.matcher(outputs_without_aux, targets)
 
         if targets[0]['segments'].dim() > 1:
-            src_logits = outputs['pred_logits']
+            out_logits = outputs['pred_logits']
             prob = F.softmax(out_logits, -1)
             scores, labels = prob[..., :-1].max(-1)
     
@@ -279,12 +279,12 @@ class PostProcessMatched(nn.Module):
                 output_edges = []
                 for i in list(set(idx[0].tolist())):
                     edge_ids = [src_index for bidx, src_index in zip(idx[0].tolist(),idx[1].tolist()) if bidx == i]
-                    output_edges.append(edges_orig[i][edge_ids,:][:,edge_ids]
+                    output_edges.append(edges_orig[i][edge_ids,:][:,edge_ids])
   
                 results = [{'score': torch.tensor(scr), 'label': torch.tensor(lbl), 'segment': torch.tensor(seg), 'edge': torch.tensor(e)} for scr, lbl, seg, e in zip(out_scores, out_labels, out_segments, output_edges)]
 
             else:
-                results = [{'score': torch.empty(targets[0]['segments'].size()), 'label': torch.empty(targets[0]['segments'].size()), 'segment': torch.empty(target[0]['segments'].size()), 'edge': torch.empty(target[0]['segments'].size())}]
+                results = [{'score': torch.empty(targets[0]['segments'].size()), 'label': torch.empty(targets[0]['segments'].size()), 'segment': torch.empty(targets[0]['segments'].size()), 'edge': torch.empty(targets[0]['segments'].size())}]
 
         else:
             results = [{'score': torch.empty(targets[0]['segments'].size()), 'label': torch.empty(targets[0]['segments'].size()), 'segment': torch.empty(targets[0]['segments'].size()), 'edge': torch.empty(targets[0]['segments'].size())}]
