@@ -284,10 +284,11 @@ class PostProcessMatched(nn.Module):
                 results = [{'score': torch.tensor(scr), 'label': torch.tensor(lbl), 'segment': torch.tensor(seg), 'edge': torch.tensor(e)} for scr, lbl, seg, e in zip(out_scores, out_labels, out_segments, output_edges)]
 
             else:
-                results = [{'score': torch.empty(targets[0]['segments'].size()), 'label': torch.empty(targets[0]['segments'].size()), 'segment': torch.empty(targets[0]['segments'].size()), 'edge': torch.empty(targets[0]['segments'].size())}]
+                results = [{'score': torch.tensor(scr), 'label': torch.tensor(lbl), 'segment': torch.tensor(seg), 'edge': torch.empty(targets[0]['segments'].size())} for scr, lbl, seg in zip(out_scores, out_labels, out_segments)]
+                
 
         else:
-            results = [{'score': torch.empty(targets[0]['segments'].size()), 'label': torch.empty(targets[0]['segments'].size()), 'segment': torch.empty(targets[0]['segments'].size()), 'edge': torch.empty(targets[0]['segments'].size())}]
+            results = [{'score': torch.empty(targets[0]['segments'].size()), 'label': torch.empty(targets[0]['labels'].size()), 'segment': torch.empty(targets[0]['segments'].size()), 'edge': torch.empty(targets[0]['segments'].size())}]
 
         return results
 
