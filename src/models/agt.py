@@ -58,7 +58,7 @@ class AGT(nn.Module):
         outputs_class = self.class_embed(hs)
         outputs_segments = F.relu(self.segments_embed(hs))
 
-        out = {'pred_logits': outputs_class[-1], 'pred_segments': outputs_segments[-1],'edges':edge}
+        out = {'pred_logits': outputs_class[-1], 'pred_segments': outputs_segments[-1],'edges': edge}
         if self.aux_loss:
             out['aux_outputs'] = self._set_aux_loss(outputs_class, outputs_segments)
         return out
@@ -273,7 +273,7 @@ class PostProcessMatched(nn.Module):
                 out_labels.append(labels[i][logit_idx])
                 out_segments.append(segments[i][segment_idx,:])
 
-            if 'eges' in outputs.keys():
+            if 'edges' in outputs.keys():
               if type(outputs['edges']) != type(None):
                 edges_orig = outputs['edges']
                 output_edges = []
