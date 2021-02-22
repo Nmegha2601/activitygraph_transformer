@@ -1,0 +1,157 @@
+0 Holding some clothes
+1 Putting clothes somewhere
+2 Taking some clothes from somewhere
+3 Throwing clothes somewhere
+4 Tidying some clothes
+5 Washing some clothes
+6 Closing a door
+7 Fixing a door
+8 Opening a door
+9 Putting something on a table
+10 Sitting on a table
+11 Sitting at a table
+12 Tidying up a table
+13 Washing a table
+14 Working at a table
+15 Holding a phone/camera
+16 Playing with a phone/camera
+17 Putting a phone/camera somewhere
+18 Taking a phone/camera from somewhere
+19 Talking on a phone/camera
+20 Holding a bag
+21 Opening a bag
+22 Putting a bag somewhere
+23 Taking a bag from somewhere
+24 Throwing a bag somewhere
+25 Closing a book
+26 Holding a book
+27 Opening a book
+28 Putting a book somewhere
+29 Smiling at a book
+30 Taking a book from somewhere
+31 Throwing a book somewhere
+32 Watching/Reading/Looking at a book
+33 Holding a towel/s
+34 Putting a towel/s somewhere
+35 Taking a towel/s from somewhere
+36 Throwing a towel/s somewhere
+37 Tidying up a towel/s
+38 Washing something with a towel
+39 Closing a box
+40 Holding a box
+41 Opening a box
+42 Putting a box somewhere
+43 Taking a box from somewhere
+44 Taking something from a box
+45 Throwing a box somewhere
+46 Closing a laptop
+47 Holding a laptop
+48 Opening a laptop
+49 Putting a laptop somewhere
+50 Taking a laptop from somewhere
+51 Watching a laptop or something on a laptop
+52 Working/Playing on a laptop
+53 Holding a shoe/shoes
+54 Putting shoes somewhere
+55 Putting on shoe/shoes
+56 Taking shoes from somewhere
+57 Taking off some shoes
+58 Throwing shoes somewhere
+59 Sitting in a chair
+60 Standing on a chair
+61 Holding some food
+62 Putting some food somewhere
+63 Taking food from somewhere
+64 Throwing food somewhere
+65 Eating a sandwich
+66 Making a sandwich
+67 Holding a sandwich
+68 Putting a sandwich somewhere
+69 Taking a sandwich from somewhere
+70 Holding a blanket
+71 Putting a blanket somewhere
+72 Snuggling with a blanket
+73 Taking a blanket from somewhere
+74 Throwing a blanket somewhere
+75 Tidying up a blanket/s
+76 Holding a pillow
+77 Putting a pillow somewhere
+78 Snuggling with a pillow
+79 Taking a pillow from somewhere
+80 Throwing a pillow somewhere
+81 Putting something on a shelf
+82 Tidying a shelf or something on a shelf
+83 Reaching for and grabbing a picture
+84 Holding a picture
+85 Laughing at a picture
+86 Putting a picture somewhere
+87 Taking a picture of something
+88 Watching/looking at a picture
+89 Closing a window
+90 Opening a window
+91 Washing a window
+92 Watching/Looking outside of a window
+93 Holding a mirror
+94 Smiling in a mirror
+95 Washing a mirror
+96 Watching something/someone/themselves in a mirror
+97 Walking through a doorway
+98 Holding a broom
+99 Putting a broom somewhere
+100 Taking a broom from somewhere
+101 Throwing a broom somewhere
+102 Tidying up with a broom
+103 Fixing a light
+104 Turning on a light
+105 Turning off a light
+106 Drinking from a cup/glass/bottle
+107 Holding a cup/glass/bottle of something
+108 Pouring something into a cup/glass/bottle
+109 Putting a cup/glass/bottle somewhere
+110 Taking a cup/glass/bottle from somewhere
+111 Washing a cup/glass/bottle
+112 Closing a closet/cabinet
+113 Opening a closet/cabinet
+114 Tidying up a closet/cabinet
+115 Someone is holding a paper/notebook
+116 Putting their paper/notebook somewhere
+117 Taking paper/notebook from somewhere
+118 Holding a dish
+119 Putting a dish/es somewhere
+120 Taking a dish/es from somewhere
+121 Wash a dish/dishes
+122 Lying on a sofa/couch
+123 Sitting on sofa/couch
+124 Lying on the floor
+125 Sitting on the floor
+126 Throwing something on the floor
+127 Tidying something on the floor
+128 Holding some medicine
+129 Taking/consuming some medicine
+130 Putting groceries somewhere
+131 Laughing at television
+132 Watching television
+133 Someone is awakening in bed
+134 Lying on a bed
+135 Sitting in a bed
+136 Fixing a vacuum
+137 Holding a vacuum
+138 Taking a vacuum from somewhere
+139 Washing their hands
+140 Fixing a doorknob
+141 Grasping onto a doorknob
+142 Closing a refrigerator
+143 Opening a refrigerator
+144 Fixing their hair
+145 Working on paper/notebook
+146 Someone is awakening somewhere
+147 Someone is cooking something
+148 Someone is dressing
+149 Someone is laughing
+150 Someone is running somewhere
+151 Someone is going from standing to sitting
+152 Someone is smiling
+153 Someone is sneezing
+154 Someone is standing up from somewhere
+155 Someone is undressing
+156 Someone is eating something
