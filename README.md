@@ -29,7 +29,7 @@ conda create --name agt_env --file requirements.txt
 ``` 
 3. Extract I3D features. We used [this](https://github.com/piergiaj/pytorch-i3d) to extract the features for each of the dataset in `.npy` format. Place the extracted features in `data/thumos/i3d_feats`
 
-4. Run the code using the following command. This will start training a model on the dataset. The checkpoints and training log will be saved in an automatically created directory `output`.
+4. Run the code using the following command. This will start training a model on the dataset. The checkpoints and training log will be saved in an automatically created directory `output`. To reproduce the results, use the hyperparameters mentioned in the Appendix section of the paper.
 
 ```
 bash run_scripts/run_agt.sh
